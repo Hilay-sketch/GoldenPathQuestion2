@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>מחשבון פיזיקלי</h1>
+    <p>אנא הכנס את מסת המטען</p>
+    <form action="/indexHTTP.js" method="post">
+        <input type="number" placeholder="מסה [kg]" name="cargoMassUser">
+        <button name="confirm" type="submit">אישור</button>
+    </form>
+    <p id="feedback">אנא הכנס מספר חיובי</p>
+    <p id="massReduce"></p>
+    <p id="distanceTraveled"></p>
+    <p id="timeTraveled"></p>
+    <button id="seeList">לחץ כדי לראות משימות קודמות דרך הענן</button>
+    <ul id="list"></ul>
+
+
+</html>
